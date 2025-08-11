@@ -14,14 +14,14 @@ Console.WriteLine("Hello, Amirali!");
 //--------------------------------------------------------
 
 int jam = 0;
-for (int i = 0; i < 10;i++)
+for (int i = 0; i < 5;i++)
 {
 
     int num = 0;
     Console.WriteLine("enter number:");
     num = Int32.Parse( Console.ReadLine());
 
-    if (num % 2 == 0)
+    if (num % 1 != 1)
     {
         jam = jam + num;
     }
