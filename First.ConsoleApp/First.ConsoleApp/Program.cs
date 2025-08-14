@@ -11,21 +11,44 @@ Console.WriteLine("Hello, Amirali!");
 //var num3 = Int32.Parse(num1) + Int32.Parse(num2);
 //Console.WriteLine($"{num1} + {num2} = {num3}");
 
-//--------------------------------------------------------
+//-1---fjam kon tamam adade zoj ra------------------
 
-int jam = 0;
-for (int i = 0; i < 5;i++)
+//Console.WriteLine("***salam mikhahim adade zoj ra jam konim.");
+//int jam = 0;
+//for (int i = 0; i < 5;i++)
+//{
+
+//    int num = 0;
+//   Console.WriteLine("enter number:");
+//    num = Int32.Parse( Console.ReadLine());
+
+//    if (num % 2 == 0)
+//    {
+//        jam = jam + num;
+//    }
+
+//}
+//Console.WriteLine($"jam  mishavad: {jam}");
+
+//-2---zarb kon tamam adade fard ra-----------------------
+
+
+Console.WriteLine("***hala mikhahim adade fard ra zarb konim.");
+
+int zarb = 1;
+int j = 0;
+while (j<5)
 {
-
     int num = 0;
     Console.WriteLine("enter number:");
-    num = Int32.Parse( Console.ReadLine());
+    num =int.Parse( Console.ReadLine());
 
-    if (num % 1 != 1)
+    if (num % 2 != 0)
     {
-        jam = jam + num;
+        zarb = zarb * num;
     }
-
+    j++;
 }
+Console.WriteLine($"zarb adade fard mishvad: {zarb}");
 
-Console.WriteLine(jam);
+    
