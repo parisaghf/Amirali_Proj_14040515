@@ -2,6 +2,13 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/.vs/1/v17
 /First.ConsoleApp
-/.vs/New folder/v17
-/New folder
+/First.ConsoleApp/.vs/First.ConsoleApp/DesignTimeBuild/.dtbcache.v2
+/First.ConsoleApp/First.ConsoleApp/bin/Debug/net7.0/First.ConsoleApp.dll
+/First.ConsoleApp/First.ConsoleApp/bin/Debug/net7.0/First.ConsoleApp.exe
+/First.ConsoleApp/First.ConsoleApp/bin/Debug/net7.0/First.ConsoleApp.pdb
+/First.ConsoleApp/First.ConsoleApp/obj/Debug/net7.0/apphost.exe
+/First.ConsoleApp/First.ConsoleApp/obj/Debug/net7.0/First.ConsoleApp.AssemblyInfoInputs.cache
+/First.ConsoleApp/First.ConsoleApp/obj/Debug/net7.0/First.ConsoleApp.csproj.CoreCompileInputs.cache
+/First.ConsoleApp/First.ConsoleApp/obj/Debug/net7.0/First.ConsoleApp.assets.cache
