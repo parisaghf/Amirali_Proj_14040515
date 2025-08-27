@@ -13,19 +13,39 @@ Console.WriteLine("Hello, Amirali!");
 
 //--------------------------------------------------------
 
-int jam = 0;
-for (int i = 0; i < 5;i++)
+//int jam = 0;
+//for (int i = 0; i < 5;i++)
 {
 
-    int num = 0;
-    Console.WriteLine("enter number:");
-    num = Int32.Parse( Console.ReadLine());
-
-    if (num % 1 != 1)
-    {
-        jam = jam + num;
+//    int num = 0;
+//    Console.WriteLine("enter number:");
+//    num = Int32.Parse( Console.ReadLine());
+//
+//    if (num % 2 != 1)
+//    {
+//        jam = jam + num;
     }
 
+//}
+
+//Console.WriteLine(jam);
+
+
+        
+int a, b, c;
+a = 0;
+b = 1;
+c = 0;
+
+ 
+{
+    Console.WriteLine(a);//  a و b مقدار های اولیه دنباله
+    for (int i = 0; i < 10; i++)
+    {
+        c = a + b;
+        a = b;
+        b = c;
+        Console.WriteLine(c);
+    };
 }
 
-Console.WriteLine(jam);
